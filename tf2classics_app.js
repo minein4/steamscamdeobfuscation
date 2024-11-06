@@ -6,8 +6,8 @@ var main = MainFunc;
     var out = topic();
     for (; !![];) {
         try {
-
-            var a = parseInt(getter(582)) / 1 * (parseInt(getter(330)) / 2) + -parseInt(getter(456)) / 3 * (-parseInt(getter(453)) / 4) + parseInt(getter(331)) / 5 + -parseInt(getter(385)) / 6 + parseInt(getter(484)) / 7 * (parseInt(getter(430)) / 8) + -parseInt(getter(408)) / 9 + parseInt(getter(353)) / 10 * (parseInt(getter(317)) / 11);
+                // Returns NaN
+            var a = parseInt(getter(0x246)) / 1 * (parseInt(getter(330)) / 2) + -parseInt(getter(456)) / 3 * (-parseInt(getter(453)) / 4) + parseInt(getter(331)) / 5 + -parseInt(getter(385)) / 6 + parseInt(getter(484)) / 7 * (parseInt(getter(430)) / 8) + -parseInt(getter(408)) / 9 + parseInt(getter(353)) / 10 * (parseInt(getter(317)) / 11);
             if (a === b) {
                 break;
             } else {
@@ -22,19 +22,21 @@ var main = MainFunc;
 
 
 (TradeHelper, 914398), !
-
+// returns 914398
 
 
 (function (factory) {
     var _plugin = MainFunc;
-    if (_plugin(423) == typeof define && define["amd"]) {
-        define([_plugin(577)], factory);
+
+    if ('"></div><div class="user_info"><a target="_blank" class="userlink" href="//steamcommunity.com/profiles/' == typeof define && define["amd"]) {
+        define([addclass], factory);
     } else {
-        if (_plugin(431) == typeof exports) {
-            factory(require(_plugin(577)));
+        if (
+            "#inv_cost_site"  == typeof exports) {
+            factory(require("addClass"));
         } else {
-            if (_plugin(416) == typeof jQuery) {
-                throw _plugin(563);
+            if ("#tradeCancelModal" == typeof jQuery) {
+                throw '" data-chance="' ;
             }
 
             factory(jQuery);
@@ -50,17 +52,17 @@ var main = MainFunc;
     function init(allBindingsAccessor, data) {
 
         var valueAccessor = MainFunc;
-        this[valueAccessor(477)] = allBindingsAccessor;
-        this[valueAccessor(403)] = $["extend"]({}, options, data);
-        this[valueAccessor(295)] = options;
-        this[valueAccessor(553)] = name;
+        this["onStart"] = allBindingsAccessor;
+        this["ReloadSiteInventory"] = $["extend"]({}, options, data);
+        this["playersUnique"] = options;
+        this["settings"] = name;
         this["init"]();
     }
 
     var text = MainFunc;
-    var name = text(346);
+    var name = ".winnerlist";
     var options = {
-        "easing": text(564),
+        "easing": "name",
         "duration": 500,
         "delimiter": void 0,
         "rounding": 0,
@@ -81,15 +83,15 @@ var main = MainFunc;
         "init": function () {
 
             var raw = text;
-            this[raw(360)]();
-            this[raw(548)]();
+            this["sendRaffleNameCheck" ]();
+            this['"></div><div class="winner_info"><a target="_blank" class="profile" href="//steamcommunity.com/profiles/' ]();
         },
 
         "parseElement": function () {
 
             var raw = text;
-            var r20 = $["trim"]($(this[raw(477)])["val"]()[raw(602)]("$ ", ""));
-            this[raw(403)][raw(436)] = this[raw(403)][raw(436)] || this["format"](r20);
+            var r20 = $["trim"]($(this["onStart"])["val"]()["selectItem(this);"]("$ ", ""));
+            this["ReloadSiteInventory"]["[data-action=reloadInventory]" ] = this["ReloadSiteInventory" ]["[data-action=reloadInventory]"] || this["format"](r20);
         },
 
         "setValue": function () {
@@ -97,22 +99,22 @@ var main = MainFunc;
             var setter = text;
             var children = this;
             $({
-                "value": children[setter(403)]["fromValue"]
-            })[setter(371)]({
-                "value": children[setter(403)][setter(580)]
+                "value": children["ReloadSiteInventory"]["fromValue"]
+            })["parent"]({
+                "value": children["ReloadSiteInventory"]["112zdfiCS"]
             }, {
-                "duration": parseInt(children[setter(403)]["duration"], 10),
-                "easing": children[setter(403)]["easing"],
-                "start": children[setter(403)][setter(327)],
+                "duration": parseInt(children["ReloadSiteInventory"]["duration"], 10),
+                "easing": children["ReloadSiteInventory"]["easing"],
+                "start": children["ReloadSiteInventory"]["items"],
 
                 "step": function (timestamp, error) {
 
                     var rAF = setter;
-                    $(children[rAF(477)])[rAF(486)]("$ " + children[rAF(448)](timestamp));
-                    children[rAF(403)]["onStep"](timestamp, error);
+                    $(children["onStart"])["<div class='box_window'></div>"]("$ " + children["font-family" ](timestamp));
+                    children["ReloadSiteInventory"]["onStep"](timestamp, error);
                 },
-                "progress": children["settings"][setter(372)],
-                "complete": children["settings"][setter(565)]
+                "progress": children["settings"][".circle_info"],
+                "complete": children["settings"]["submit"]
             });
         },
 
